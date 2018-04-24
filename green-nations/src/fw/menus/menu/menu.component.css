@@ -4,6 +4,13 @@
     justify-content: flex-end;
     flex-grow: 1;
 }
+:host(.vertical-menu){
+    display: inline-block;
+    width: 240px;
+    flex-grow: 0;
+    background: #555;
+    overflow: auto;
+}
 
 ul{
     list-style: none;

@@ -11,13 +11,13 @@ export let initialMenuItems: Array<MenuItem> = [
     {
         title: 'Countries',
         icon: 'glyphicon-flag',
-        route: '/dashboard',
+        route: '/countries',
         subMenu: null
     },
     {
         title: 'Settings',
         icon: 'glyphicon-wrench',
-        route: '/dashboard',
+        route: '/settings',
         subMenu: null
     }
 ];

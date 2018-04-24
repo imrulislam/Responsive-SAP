@@ -22,3 +22,26 @@ span{
     margin-left: 16px;
     width: auto;
 }
+.menu-item:hover{
+    background: #dfd;
+}
+.router-link-active{
+    background: #dfd;
+}
+:host(.vertical-menu){
+    display: block;
+    margin-left: 0;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: #fff;
+}
+.menu-item.vertical-menu{
+    padding: 6px 6px 6px 0;
+    color: #fff;
+}
+.menu-item.vertical-menu:hover{
+    background: green;
+}
+.router-link-active.vertical-menu{
+    background: green;
+}
