@@ -1,8 +1,10 @@
 import { Routes } from '@angular/router';
 
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { CountriesComponent } from './countries/countries.component';
 import { SettingsComponent } from './settings/settings.component';
+import { CountryListComponent } from './country-list/country-list.component';
+import { CountryDetailsComponent } from './country-details/country-details.component';
+import { CountryMaintComponent } from './country-maint/country-maint.component';
 
 export const appRoutes: Routes = [
     {
@@ -10,8 +12,16 @@ export const appRoutes: Routes = [
         component: DashboardComponent
     },
     {
-        path: 'countries',
-        component: CountriesComponent
+        path: 'country-list/:count',
+        component: CountryListComponent
+    },
+    {
+        path: 'country-details/:country',
+        component: CountryDetailsComponent
+    },
+    {
+        path: 'country-maint',
+        component: CountryMaintComponent
     },
     {
         path: 'settings',

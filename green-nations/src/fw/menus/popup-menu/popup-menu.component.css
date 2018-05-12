@@ -1,0 +1,17 @@
+:host {
+    position: absolute;
+    display: inline-block;
+    width: 160px;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-shadow: 1px 1px 5px #aaa;
+}
+:host(.vertical-menu){
+    position: static;
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 2px 0 0 0;
+}
