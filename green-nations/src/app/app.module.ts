@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { FwModule } from '../fw/fw.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -23,6 +23,7 @@ import { CountryMaintComponent } from './country-maint/country-maint.component';
   imports: [
     BrowserModule,
     FwModule,
+    FormsModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
